@@ -1,5 +1,8 @@
 Endless Tunnel
 ==============
+
+![screenshot](screenshot.png)
+
 Endless Tunnel is a sample game that shows how to:
 - use the Android Studio C++ support
 - implement a game using Android native glue
@@ -7,21 +10,18 @@ Endless Tunnel is a sample game that shows how to:
 
 The game is based on  [endless-tunnel](https://github.com/googlesamples/android-ndk/tree/master/endless-tunnel)
 
-Pre-requisites
---------------
+
+
+Components
+----------
 - Android Studio 2.2+ with [NDK](https://developer.android.com/ndk/) bundle.
 
-Screenshots
------------
-![screenshot](screenshot.png)
-
-Dependencies
-------------
 - GLM LIBRARY
   OpenGL Mathematics (GLM) library, available at http://glm.g-truc.net/
 
 - Android Studio CMake plugin
   [Android Studio CMake plugin](http://tools.android.com/tech-docs/external-c-builds) with C++ support.
+
 
 
 License
