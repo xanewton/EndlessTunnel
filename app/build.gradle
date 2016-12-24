@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 Google Inc.
+ * Copyright (C) 2016 Angel Garcia
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@ android {
     buildToolsVersion = '23.0.2'
 
     defaultConfig {
-        applicationId 'com.google.sample.tunnel'
+        applicationId 'com.xengar.android.endlesstunnel'
         minSdkVersion 9
         targetSdkVersion 23
         versionCode     1
