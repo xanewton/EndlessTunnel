@@ -53,7 +53,7 @@
 #define MAX_DELTA_T 0.05f
 
 // player's speed
-#define PLAYER_SPEED 80.0f
+#define PLAYER_SPEED 40.0f
 
 // how much the player's speed increases when we go up one difficulty level
 #define PLAYER_SPEED_INC_PER_LEVEL 10.0f
@@ -104,17 +104,17 @@
 // where do we start drawing the life icons? (negative to mean counting from right side of screen)
 #define LIFE_POS_X -0.4f
 #define LIFE_POS_Y SCORE_POS_Y
-#define LIFE_SPACING_X 0.08f
+#define LIFE_SPACING_X 0.05f
 #define LIFE_SCALE_Y 1.5f
 
 // how many lives the player has
-#define PLAYER_LIVES 4
+#define PLAYER_LIVES 7
 
 // how many points player gets for picking up a bonus
 #define BONUS_POINTS 50
 
 // roll speeds for each level (how fast the chamber turns)
-#define ROLL_SPEEDS { 0.0f, 0.1f, 0.0f, -0.1f, 0.0f, 0.2f, 0.0f, -0.2f }
+#define ROLL_SPEEDS { 0.0f, 0.1f, 0.0f, -0.1f, 0.0f, 1.5f, 0.0f, -1.5f }
 
 // recipes for synthesizing our very advanced sound effects:
 #define TONE_LEVEL_UP "d100 f500. f600. f700. f600. f700. f800."
@@ -126,7 +126,7 @@
 
 // player's acceleration, in units per second squared
 #define PLAYER_ACCELERATION_NEGATIVE_SPEED 10.0f  // used when speed is negative
-#define PLAYER_ACCELERATION_POSITIVE_SPEED 40.0f  // used when speed is positive
+#define PLAYER_ACCELERATION_POSITIVE_SPEED 15.0f  // used when speed is positive
 
 // the speed after colliding with an obstacle
 #define PLAYER_SPEED_AFTER_COLLISION -20.0f
@@ -155,7 +155,7 @@
 #define SAVE_FILE_NAME "tunnel.dat"
 
 // checkpoint (save progress) every how many levels?
-#define LEVELS_PER_CHECKPOINT 4
+#define LEVELS_PER_CHECKPOINT 2
 
 #endif
 
