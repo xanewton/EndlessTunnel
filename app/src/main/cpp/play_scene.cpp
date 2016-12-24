@@ -121,7 +121,7 @@ PlayScene::PlayScene() : Scene() {
     /*
      * where do I put the program???
      */
-    const char *savePath = "/mnt/sdcard/com.google.example.games.tunnel.fix";
+    const char *savePath = "/mnt/sdcard/com.xengar.android.endlesstunnel.fix";
     int len = strlen(savePath) + strlen(SAVE_FILE_NAME) + 3;
     mSaveFileName = new char[len];
     strcpy(mSaveFileName, savePath);
