@@ -1,0 +1,7 @@
+C:/Users/xengar/AndroidStudioProjects/EndlessTunnel/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/app-glue.dir
+C:/Users/xengar/AndroidStudioProjects/EndlessTunnel/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/game.dir
+C:/Users/xengar/AndroidStudioProjects/EndlessTunnel/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/xengar/AndroidStudioProjects/EndlessTunnel/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/xengar/AndroidStudioProjects/EndlessTunnel/app/.externalNativeBuild/cmake/release/arm64-v8a/glm/CMakeFiles/glm.dir
+C:/Users/xengar/AndroidStudioProjects/EndlessTunnel/app/.externalNativeBuild/cmake/release/arm64-v8a/glm/CMakeFiles/edit_cache.dir
+C:/Users/xengar/AndroidStudioProjects/EndlessTunnel/app/.externalNativeBuild/cmake/release/arm64-v8a/glm/CMakeFiles/rebuild_cache.dir
