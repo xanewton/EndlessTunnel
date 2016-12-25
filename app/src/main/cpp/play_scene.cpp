@@ -489,7 +489,7 @@ void PlayScene::RenderObstacles() {
                     modelMat = glm::translate(glm::mat4(1.0f), o->GetBoxCenter(c, r, posY));
                     modelMat = glm::scale(modelMat, glm::vec3(OBS_BONUS_SIZE, OBS_BONUS_SIZE,
                             OBS_BONUS_SIZE));
-                    modelMat = glm::rotate(modelMat, Clock() * 90.0f, glm::vec3(0.0f, 0.0f, 1.0f));
+                    modelMat = glm::rotate(modelMat, Clock() * 2.5f, glm::vec3(0.1f, 0.5f, 1.0f));
                     mvpMat = mProjMat * mViewMat * modelMat;
 
                     tintColorR = 250.0f - Random(100);
