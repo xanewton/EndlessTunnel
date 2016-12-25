@@ -454,7 +454,7 @@ void PlayScene::RenderTunnel() {
 void PlayScene::RenderObstacles() {
     int i;
     int r, c;
-    float red, green, blue;
+    float red, green, blue, tintColorR, tintColorG, tintColorB;
     glm::mat4 modelMat;
     glm::mat4 mvpMat;
 
@@ -491,9 +491,11 @@ void PlayScene::RenderObstacles() {
                             OBS_BONUS_SIZE));
                     modelMat = glm::rotate(modelMat, Clock() * 90.0f, glm::vec3(0.0f, 0.0f, 1.0f));
                     mvpMat = mProjMat * mViewMat * modelMat;
-                    mOurShader->SetTintColor(SineWave(0.8f, 1.0f, 0.5f, 0.0f),
-                            SineWave(0.8f, 1.0f, 0.5f, 0.0f),
-                            SineWave(0.8f, 1.0f, 0.5f, 0.0f)); // shimmering color
+
+                    tintColorR = 250.0f - Random(100);
+                    tintColorG = 250.0f - Random(100);
+                    tintColorB = 250.0f - Random(100);
+                    mOurShader->SetTintColor(tintColorR, tintColorG, tintColorB); // shimmering color
                     mOurShader->Render(&mvpMat); // render
                 }
             }

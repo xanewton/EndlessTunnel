@@ -56,7 +56,7 @@
 #define PLAYER_SPEED 40.0f
 
 // how much the player's speed increases when we go up one difficulty level
-#define PLAYER_SPEED_INC_PER_LEVEL 10.0f
+#define PLAYER_SPEED_INC_PER_LEVEL 5.0f
 
 // player's lateral speed
 #define PLAYER_MAX_LAT_SPEED 40.0f
